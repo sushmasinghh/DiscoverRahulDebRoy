@@ -1,0 +1,54 @@
+.gradient-background {
+    background: linear-gradient(300deg, black, grey, rgb(100, 100, 163));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 70%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body{
+    background-color: #1a1a1a;
+  }
+
+  .navbar-toggler-icon{
+    background-color: aliceblue;
+    border-radius: 5px;
+  }
+
+  .photo1{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 10px solid white;
+  }
+
+  .intro-head{
+    color: white;
+    font-family: sans-serif;
+    
+  }
+
+  .card{
+    background-color: rgb(174, 162, 151);
+  }
+
+  .lead{
+    color: white;
+  }
+
+  .featurette-heading{
+    color: white;
+  }
+
+ 
+
